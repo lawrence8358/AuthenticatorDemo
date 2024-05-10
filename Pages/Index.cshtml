@@ -1,0 +1,32 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-7">使用 Microsot Authenticator</h1>
+    <script>
+        function send() {
+            var code = $('#code').val();
+            if (!code) {
+                $('#result').text('請輸入驗證碼');
+                return;
+            }
+
+            $.ajax({
+                url: '/api/Auth/' + code,
+                type: 'POST',
+                success: function (data) {
+                    $('#result').text(data);
+                }
+            });
+        }
+    </script>
+    <div>
+        <input type="text" id="code" placeholder="請輸入驗證碼" />
+        <input type="button" onclick="send()" value="驗證" />
+        <p id="result"></p>
+    </div>
+    <img src="/api/Auth" style="width: 300px" />
+</div>
