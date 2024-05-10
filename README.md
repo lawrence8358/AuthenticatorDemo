@@ -1,11 +1,11 @@
-# ³¡¸¨®æ¤å³¹½d¨Ò - À°¦Û¤vªº NET.Core ¯¸¥x¥[¤W TOTP Âù¦]¤lÅçÃÒ§a
+# éƒ¨è½æ ¼æ–‡ç« ç¯„ä¾‹ - å¹«è‡ªå·±çš„ NET.Core ç«™å°åŠ ä¸Š TOTP é›™å› å­é©—è­‰å§
 
 
-+ µ{¦¡­È°õ¦æ¥Ü·N¹Ï<br>
-![image](https://github.com/lawrence8358/AuthenticatorDemo/blob/main/program.png?raw=true)
++ ç¨‹å¼å€¼åŸ·è¡Œç¤ºæ„åœ–<br>
+![image](https://github.com/lawrence8358/AuthenticatorDemo/blob/master/program.png?raw=true)
 
 ---
-### ¤å³¹³sµ²
+### æ–‡ç« é€£çµ
 * [Lawrence's Blog](https://lawrencetech.blogspot.com/2024/05/netcore-totp.html) 
 
 ---
